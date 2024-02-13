@@ -1,17 +1,11 @@
-
-import {Button} from 'react-bootstrap'
-import NavBar from './components/NavBar'
+import MyRoutes from "./routes/MyRoutes";
+import "./styles/navbar.css";
 function App() {
-
-
   return (
     <>
-    <NavBar/>
-    <h1>Hello</h1>
-    <button>Html button</button>
-    <Button>BootStrap</Button>
+      <MyRoutes />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
