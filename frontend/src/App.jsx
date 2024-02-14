@@ -1,5 +1,5 @@
 import MyRoutes from "./routes/MyRoutes";
-import "./styles/navbar.css";
+import "./styles/app.css";
 function App() {
   return (
     <>

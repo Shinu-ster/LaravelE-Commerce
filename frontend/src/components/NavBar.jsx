@@ -9,7 +9,7 @@ export default function NavBar() {
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
           <Navbar.Brand href="/">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
+          <Nav className="me-auto navbar_wrapper">
             <Link to="/add">
               <div>Add Product</div>
             </Link>
