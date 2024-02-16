@@ -8,7 +8,9 @@ export default function NavBar() {
     <>
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="/">Navbar</Navbar.Brand>
+          <Link to="/" className="Heading">
+            <h3>Home</h3>
+          </Link>
           <Nav className="me-auto navbar_wrapper">
             <Link to="/add">
               <div>Add Product</div>
