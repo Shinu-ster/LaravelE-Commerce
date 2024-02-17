@@ -18,6 +18,12 @@ export default function NavBar() {
             <Link to="/update">
               <div className="nav-bar">Update</div>
             </Link>
+            <Link to="/login">
+              <div className="nav-bar">Login</div>
+            </Link>
+            <Link to="/register">
+              <div className="nav-bar">Register</div>
+            </Link>
           </Nav>
         </Container>
       </Navbar>
